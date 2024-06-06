@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonStyleNoClick">
+        <item name="android:background">#FF0000</item> <!-- 设置背景色 -->
+        <item name="android:padding">8dp</item> <!-- 设置内边距 -->
+        <item name="android:textColor">#FFFFFF</item> <!-- 设置文本颜色 -->
+        <item name="android:gravity">center</item> <!-- 设置文本居中 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item> <!-- 设置上边距 -->
+        <item name="android:backgroundTint">#808080</item> <!-- 设置背景着色 -->
+        <item name="android:radius">20dp</item>
+    </style>
+
+
+</resources>
